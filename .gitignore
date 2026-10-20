@@ -1,0 +1,42 @@
+# ROS / colcon / catkin build outputs
+build/
+install/
+log/
+devel/
+logs/
+.catkin_tools/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Compiled artifacts
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dll
+*.exe
+*.out
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.aws/
+
+# Python caches used by ROS tooling
+__pycache__/
+*.py[cod]
